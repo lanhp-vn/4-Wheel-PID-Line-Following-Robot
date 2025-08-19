@@ -54,12 +54,12 @@ main/
 
 **All libraries and algorithms in this project were personally developed, written, and tested by me.** This includes:
 
-### Custom Libraries (100% Personal Code)
-- **Motor_Driver.h/cpp**: My own L298N motor driver control library
-- **LFsensor.h/cpp**: My own BFD-1000 line sensor interface library
-- **Encoder_Read.h/cpp**: My own H206 encoder reading and calculations library
-- **Ultrasonic.h/cpp**: My own HC-SR04 ultrasonic sensor control library
-- **SimpleKalmanFilter.h/cpp**: My own sensor noise filtering implementation
+### Libraries
+- **Motor_Driver.h/cpp**: L298N motor driver control library
+- **LFsensor.h/cpp**: BFD-1000 line sensor interface library
+- **Encoder_Read.h/cpp**: H206 encoder reading and calculations library
+- **Ultrasonic.h/cpp**:  HC-SR04 ultrasonic sensor control library
+- **SimpleKalmanFilter.h/cpp**: sensor noise filtering implementation
 
 ### Control Algorithms (Personally Developed)
 - **PID Control**: Custom PID algorithm written, tested, and fine-tuned through experimentation
