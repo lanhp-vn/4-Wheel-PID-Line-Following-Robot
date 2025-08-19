@@ -12,8 +12,8 @@
 ├── Midterm Assessment.pdf      # Course assessment document
 ├── robot.heic                  # Robot image
 │
-├── src/                        # Main source code
-│   ├── line_following_robot.ino    # Main Arduino program
+├── main/                       # Main source code
+│   ├── main.ino                    # Main Arduino program
 │   ├── Encoder_Read.cpp            # Encoder library implementation
 │   ├── Encoder_Read.h              # Encoder library header
 │   ├── LFsensor.cpp                # Line sensor library implementation
@@ -78,10 +78,10 @@
 ## 🔄 File Renaming Summary
 
 ### Original → New Names
-- `Main_program.ino` → `line_following_robot.ino`
-- `Main_program/` → `src/` (main source code)
-- `Arduino Libs - Robot Studio/` → `src/libraries/`
-- `3Dparts_LineFollowingSensor/` → `src/3d_models/`
+- `Main_program.ino` → `main.ino`
+- `Main_program/` → `main/` (main source code)
+- `Arduino Libs - Robot Studio/` → `main/libraries/`
+- `3Dparts_LineFollowingSensor/` → `main/3d_models/`
 
 ### Key Benefits of New Structure
 1. **Clear Separation**: Source code, libraries, and 3D models are clearly organized
@@ -113,14 +113,14 @@ These are for development and testing:
 ## 🎯 Usage Guidelines
 
 ### For End Users
-1. Use files in `src/` for the main robot
+1. Use files in `main/` for the main robot
 2. Refer to `README.md` for setup instructions
 3. Use `QUICKSTART.md` for quick setup
 4. Check `project_config.md` for technical details
 
 ### For Developers
-1. Use `src/libraries/` for component testing
-2. Modify main code in `src/line_following_robot.ino`
+1. Use `main/libraries/` for component testing
+2. Modify main code in `main/main.ino`
 3. Test individual components before integration
 4. Use provided test libraries for debugging
 
@@ -134,7 +134,7 @@ These are for development and testing:
 
 This structure is optimized for GitHub with:
 - Clear documentation at the top level
-- Organized source code in `src/`
+- Organized source code in `main/`
 - Comprehensive testing libraries
 - 3D models for hardware reproduction
 - Professional README and guides

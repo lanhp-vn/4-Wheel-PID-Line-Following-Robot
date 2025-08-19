@@ -14,7 +14,7 @@ Get your 4-Wheel Line Following Robot up and running in minutes!
 
 ### 2. Software Setup
 1. **Download Code**: Clone this repository
-2. **Open Arduino IDE**: Open `src/line_following_robot.ino`
+2. **Open Arduino IDE**: Open `main/main.ino`
 3. **Select Board**: Tools → Board → Arduino Uno
 4. **Select Port**: Tools → Port → (your Arduino port)
 5. **Upload**: Click Upload button or Ctrl+U

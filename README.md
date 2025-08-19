@@ -34,8 +34,8 @@ This project represents my complete understanding and implementation of advanced
 ## Project Structure
 
 ```
-src/
-├── line_following_robot.ino    # Main robot program (100% custom written by me)
+main/
+├── main.ino                    # Main robot program (100% custom written by me)
 ├── libraries/                   # Custom Arduino libraries
 │   ├── BFD1000/               # Line sensor library
 │   ├── PID Calculation/       # PID control algorithms
@@ -77,7 +77,7 @@ Every algorithm, library function, and control logic was:
 
 ## Main Program Development
 
-### line_following_robot.ino - My Complete Robot Control System
+### main.ino - My Complete Robot Control System
 This main Arduino program represents my complete understanding and implementation of:
 
 - **Complete State Machine**: All robot operating modes (line following, obstacle avoidance, turning, etc.)
@@ -130,7 +130,7 @@ const int max_speed = 240;   // Maximum speed
 
 ### Installation
 1. Clone this repository
-2. Open `src/line_following_robot.ino` in Arduino IDE
+2. Open `main/main.ino` in Arduino IDE
 3. Connect hardware according to pin definitions
 4. Upload to Arduino UNO
 
