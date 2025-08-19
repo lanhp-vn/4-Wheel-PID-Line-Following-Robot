@@ -86,14 +86,6 @@ This main Arduino program represents my complete understanding and implementatio
 - **Motor Control Logic**: Integration with my custom motor driver library
 - **Interrupt Handling**: Custom encoder interrupt routines for precise position tracking
 - **Error Handling**: Robust error detection and recovery mechanisms
-
-### No External Libraries Used
-Unlike many Arduino projects that rely on pre-built libraries, this project uses only my own custom code:
-- Motor control: My own L298N driver implementation
-- Sensor interfaces: My own sensor reading and processing code
-- PID algorithm: My own control algorithm implementation
-- Navigation logic: My own path planning and obstacle avoidance
-
 ## Technical Specifications
 
 ### PID Parameters
@@ -143,15 +135,3 @@ This project represents my complete understanding and implementation of advanced
 - **Software Architecture**: Designed modular, maintainable code structure
 - **Testing & Optimization**: Fine-tuned performance through extensive experimentation
 - **Problem Solving**: Developed solutions for real-world robotics challenges
-
-**Every line of code, every algorithm, and every library function was written, tested, and optimized by me** - demonstrating comprehensive knowledge of embedded systems, control theory, and robotics engineering.
-
-## Author
-
-**Fulbright University Vietnam**  
-**Course**: ENG202 Intelligent Robot Studio  
-**Project**: 4-Wheel Line Following Robot
-
----
-
-*For questions or support, please refer to the course materials or contact the course instructor.*
